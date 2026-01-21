@@ -1,7 +1,8 @@
 .div{
-    margin: 6rem 12rem;
+    margin: 2rem auto;          /* CENTER + MOBILE SAFE */
     height: 20rem;
-    width: 36rem;
+    width: 90%;                 /* MOBILE FRIENDLY */
+    max-width: 36rem;
     background-size: 100% 100%;
     box-shadow: 20px 20px 10px gray;
     animation: slider 10s linear infinite;
@@ -9,18 +10,18 @@
 
 @keyframes slider{
     0%{
-        background-image: url(1.jpg);
+        background-image: url(../1.jpg);
     }
     25%{
-        background-image: url(2.jpg);
+        background-image: url(../2.jpg);
     }
     50%{
-        background-image: url(3.jpg);
+        background-image: url(../3.jpg);
     }
     75%{
-        background-image: url(4.jpg);
+        background-image: url(../4.jpg);
     }
     100%{
-        background-image: url(5.jpg);
+        background-image: url(../5.jpg);
     }
 }
